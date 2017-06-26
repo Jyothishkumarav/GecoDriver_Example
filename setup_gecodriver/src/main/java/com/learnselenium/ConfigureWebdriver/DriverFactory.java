@@ -9,7 +9,7 @@ public class DriverFactory {
 	
 	public static WebDriver getDriver(){
 		
-		System.setProperty("webdriver.gecko.driver","C:\\Users\\310251316\\Desktop\\Personel\\Softwares\\geckodriver-v0.16.0-win64\\geckodriver.exe" );
+		System.setProperty("webdriver.gecko.driver","C:\\geckodriver-v0.16.0-win64\\geckodriver.exe" );
 		driver = new FirefoxDriver();
 		return driver;
 	}
